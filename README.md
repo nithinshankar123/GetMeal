@@ -77,6 +77,10 @@ Run the Docker container to serve the web application using Nginx. This maps por
 ```sh
 docker run -d -p 80:80 --name getmeal-container getmeal-image
 ```
+###Pulling my Image
+```sh
+docker pull nithin272/getmeal-image:latest
+```
 
 ## Summary
 - Cloned the `GetMeal` repository from GitHub.
@@ -86,7 +90,6 @@ docker run -d -p 80:80 --name getmeal-container getmeal-image
 - Pushed the Docker image to Docker Hub.
 - Ran the Docker container to serve the web application.
 
-You can check out the repository on GitHub: [GetMeal GitHub Repository](https://github.com/nithinshankar123/GetMeal.git)
 
 The Docker image is now available on Docker Hub: [GetMeal Docker Image](https://hub.docker.com/repository/docker/nithin272/getmeal-image)
 
