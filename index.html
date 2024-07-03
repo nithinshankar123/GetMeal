@@ -53,12 +53,7 @@
   </head>
 
   <body>
-    <div id="loading">
-      <img
-        id="loading-image"
-        src=""
-        alt="Loading..."
-      />
+    
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -2043,4 +2038,11 @@
   <!-- JQUERY CDN -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+  <!-- CUSTOM JS -->
+  <script src="./index.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $("#loading").hide();
+    });
+  </script>
 </html>
