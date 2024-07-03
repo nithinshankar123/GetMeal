@@ -1,5 +1,5 @@
 # GetMeal
-Sure! Here's an explanation of the entire process, including all commands, in Markdown format for your GitHub README file:
+
 
 ```markdown
 # GetMeal Project - Dockerized Web Application
