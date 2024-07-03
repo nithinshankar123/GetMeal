@@ -93,9 +93,3 @@ docker pull nithin272/getmeal-image:latest
 
 The Docker image is now available on Docker Hub: [GetMeal Docker Image](https://hub.docker.com/repository/docker/nithin272/getmeal-image)
 
-This project was a fantastic learning experience in working with Docker and deploying web applications. Thank you to everyone who has supported me along this journey!
-
-#Docker #GitHub #CloudComputing #WebDevelopment #Nginx #DockerHub #Containerization #DevOps
-```
-
-Feel free to customize this README content to better fit your project and personal style.
