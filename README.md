@@ -36,6 +36,9 @@ COPY *.html /usr/share/nginx/html/
 # Copy CSS files to the default Nginx html directory
 COPY *.css /usr/share/nginx/html/
 
+# Copy Js files to the default Nginx html directory
+COPY *.js /usr/share/nginx/html/
+
 # Expose port 80 to be able to access the web server
 EXPOSE 80
 
