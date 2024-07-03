@@ -1,0 +1,2080 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>GET FOOD</title>
+    
+
+    <!-- META -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="Momomia"
+      content="Author: Rishika Garg, Illustrator: Font Awesome and Flat Icon, Category: Food Application, Open Source: Yes"
+    />
+    <meta name="description" content="Food Ordering Website. The 'MOMOMIA' has
+    been practiced to override the prevalent problems in manual systems. This
+    website is compatible to finalize and, in some cases, reduces the
+    difficulties faced by this existing system.>
+    <meta name="robots" content="all" />
+    <meta name="googlebot" content="all" />
+
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CDN FONTS  -->
+    <link href="https://fonts.cdnfonts.com/css/elinga" rel="stylesheet" />
+
+    <!-- FONTAWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS -->
+    <link href="https://copyfonts.com/fonts/attari-salees.html" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="loading">
+      <img
+        id="loading-image"
+        src=""
+        alt="Loading..."
+      />
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <!-- CODE FOR NAVIGATION BAR -->
+        <ul class="px-0 mx-0">
+          
+        </ul>
+        <a class="navbar-brand" href="index.html">GET FOOD</a>
+        <!--         <a style ="font-size :class="navbar-brand" href="#">MOMOMIA</a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link px-3" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#categorySection">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="#healthySection">Hygiene</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-4" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <span
+          class="shoppingCart"
+          data-toggle="modal"
+          data-target="#exampleModal"
+        >
+          <i class="fas fa-shopping-cart"></i>
+          <span class="shoppingCartAfter">0</span>
+        </span>
+      </div>
+    </nav>
+
+    <a id="scrollToTop" class="btn"><i class="fas fa-caret-up"></i></a>
+
+    <div class="container home-container">
+      <section id="homeSection" class="d-flex justify-content-center">
+        <div class="row homeRow">
+          <div class="col-lg-6 homeTxtCol">
+            <h1 class="homeHeading">
+              Where the Flavor <br />
+              <span data-text="Consume">Consume</span>
+              <br />
+              you
+            </h1>
+            <br />
+            <div class="homeBtnDiv">
+              <a href="#categorySection" class="btn homeBtn">Order Now</a>
+            </div>
+          </div>
+          <div class="col-lg-6 homeImgCol">
+            <img class="homeImg" src="https://tse3.mm.bing.net/th?id=OIP.JVRJbGnXAurC2oCbcnbgggHaHa&pid=Api&P=0&h=180" alt="momos" style="margin-left: 10px;"/>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <br />
+
+    <section id="categorySection">
+      <div class="container">
+        <h1>
+          <span><b>CATEGORIES</b></span>
+        </h1>
+        <div class="row gutters-40">
+          <div class="col-lg-4 col-sm-4 col-4">
+            <div class="product-box-layout4 momos">
+              <div class="item-figure">
+                <img
+                  src="https://tse1.mm.bing.net/th?id=OIP.vdcLKCUvrAy65s7Nl28hcwHaFj&pid=Api&P=0&h=180"
+                  alt="Category"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div class="item-content">
+                <h2 class="card-title">Rice Items</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-4 col-4">
+            <div class="product-box-layout4 chinese">
+              <div class="item-figure">
+                <img
+                  src="data:image/jpeg;base64,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"
+                  alt="Category"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div class="item-content">
+                <h2 class="card-title">Chinese</h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-4 col-4">
+            <div class="product-box-layout4 beverages">
+              <div class="item-figure">
+                <img
+                  src="https://foodsafetyworks.com/wp-content/uploads/2023/01/04_22_HERO2_NA_Cocktails_GettyImages-1145767236_1920x1280.jpg"
+                  alt="Category"
+                  width="100%"
+                  height="100%"
+                />
+              </div>
+              <div class="item-content">
+                <h2 class="card-title">Beverages</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MENU STARTS HERE -->
+        <div class="menuDiv">
+          <!-- MODAL -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container-fluid">
+                    <div class="row paymentInfoRow">
+                      <div class="col paymentInfo">
+                        <span class="checkIcon"
+                          ><i class="fas fa-check-circle"></i
+                        ></span>
+                        Select Menu
+                      </div>
+                      <div class="col paymentInfo">
+                        <span class="checkIcon"
+                          ><i class="fa-brands fa-whatsapp"></i
+                        ></span>
+                        Place order via Whatsapp
+                      </div>
+                      <div class="col paymentInfo">
+                        <span class="checkIcon"
+                          ><i class="fa-brands fa-google-pay"></i>
+                        </span>
+                        Pay using Google Pay.
+                      </div>
+                    </div>
+
+                    <hr class="cartHr" />
+
+                    <div class="cartContentDiv">
+                      <h1>Your Cart is Empty</h1>
+                    </div>
+
+                    <div class="userInfoDiv">
+                      <div class="mb-3 px-2">
+                        <label for="address">Address *</label> <br />
+                        <textarea
+                          type="text"
+                          class="form-control"
+                          id="address"
+                        ></textarea>
+                      </div>
+                      <div class="mb-3 px-2">
+                        <label for="note">Note (optional)</label> <br />
+                        <textarea
+                          type="text"
+                          class="form-control"
+                          id="note"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div class="totalAmountDiv"></div>
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    onclick="location.reload()"
+                  >
+                    Clear Cart
+                  </button>
+                  <a class="btn btn-primary" onclick="openWhatsapp()">
+                    Order Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="momos">
+            <div class="row menuHeading">
+              <div class="col-12">
+                <h1>Rice Items</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Meals</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                         Veg Meals
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>100
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Meals+Chicken curry
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>140
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Meals+Fish curry
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>130
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Meals+Mutton curry
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>180
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          meals+Natukodi Pulusu
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>180
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Non veg meals
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>300
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Meals+biryani 
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>140
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                         North Indian Meals
+                          <span>
+                            <img
+                            class="vegIcon"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiz6WIVSYKbILJ-x6kygxSFHXo3aXfY7azw&s"
+                            alt="veg-icon"
+                          />
+                            
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>130
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Fried rice</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veggie Fried rice
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>50
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Paneer fried rice
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>70
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Egg fried rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>70
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken fried rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>90
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Prawns fried rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>120
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Manchurian fried rice
+                          <span>
+                            <img
+                            class="vegIcon"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                            alt="veg-icon"
+                          />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>70
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Double egg fried rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>80
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Double egg chicken fried rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>100
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row checkOutRow">
+              <button
+                type="button"
+                class="btn knowMoreBtn"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fas fa-shopping-cart"></i> Go to Cart
+              </button>
+            </div>
+          </div>
+
+          <div id="chinese">
+            <div class="row menuHeading">
+              <div class="col-12">
+                <h1>Chinese</h1>
+              </div>
+              <!-- Button trigger modal -->
+              <span
+                class="shoppingCart"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fas fa-shopping-cart"></i>
+                <span class="shoppingCartAfter">0</span>
+              </span>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Noodles</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veg Hakka Noodles
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>200
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chilli Garlic Noodles
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>210
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Egg noodles<span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>190
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Corn noodles
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>230
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Hakka Noodles
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>220
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Garlic Noodles
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>230
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Fried noodlea
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>230
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Mix Meat Fried Rice
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>300
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Appetizers</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chilli Potato<span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>250
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veg Spring Roll
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>270
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chilli Paneer
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>280
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Spring Roll
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>300
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Crispy Honey Chicken<span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>350
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Cantonese Spring Rolls<span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>400
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Baked Chicken Wings<span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>420
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Crab Rangoon<span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>540
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+
+                    <div class="row foodItem"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">Main Course</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veg Garlic Sauce<span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>350
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veg Garlic Sauce
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>350
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Potato Garlic Sauce
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>350
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Mixed Vegetable Sauce
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>370
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Stir Fried Asian Green<span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>370
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Burnt Garlic Rice
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>395
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Creamy Noodles
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>250
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Shredded Chicken
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>640
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row checkOutRow">
+              <button
+                type="button"
+                class="btn knowMoreBtn"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fas fa-shopping-cart"></i> Go to Cart
+              </button>
+            </div>
+          </div>
+
+          <div id="beverages">
+            <div class="row menuHeading">
+              <div class="col-12">
+                <h1>Beverages</h1>
+              </div>
+              <!-- Button trigger modal -->
+              <span
+                class="shoppingCart"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fas fa-shopping-cart"></i>
+                <span class="shoppingCartAfter">0</span>
+              </span>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Soups</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Veg Manchow
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>150
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Sweet Corn
+                          <span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>150
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Hot 'N' Sour<span>
+                            <img
+                              class="vegIcon"
+                              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Veg_symbol.svg/1024px-Veg_symbol.svg.png"
+                              alt="veg-icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>150
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Manchow
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>170
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Sweet Corn
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>170
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>
+                          Chicken Hot 'N' Sour
+                          <span>
+                            <img
+                              class="nonVegIcon"
+                              src="https://cdn.vectorstock.com/i/500p/00/43/non-vegetarian-sign-veg-logo-symbol-vector-50890043.jpg"
+                              alt="non-veg icon"
+                            />
+                          </span>
+                        </p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>170
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-12">
+                <div class="card">
+                  <h2 class="card-title">Mocktails</h2>
+                  <div class="card-body">
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Midnight Beauty</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>120
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Mojito</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>150
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Pink Lemonade</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>140
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Silver Lining</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>140
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Sweet Memories</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>150
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                    <hr class="foodItemHr" />
+                    <div class="row foodItem">
+                      <div class="col-9 foodItemName">
+                        <p>Virgin Mojito</p>
+                        <p class="text-muted-small">
+                          <i class="fas fa-rupee-sign"></i>230
+                        </p>
+                      </div>
+                      <div class="col-3 addCol">
+                        <span class="menuBtn minus"
+                          ><i class="fas fa-minus"></i
+                        ></span>
+                        <span class="quantity">0</span>
+                        <span class="menuBtn plus"
+                          ><i class="fas fa-plus"></i
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row checkOutRow">
+              <button
+                type="button"
+                class="btn knowMoreBtn"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                <i class="fas fa-shopping-cart"></i> Go to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="healthySection">
+      <h1 class="hygiene-title">
+        <span><b>HYGIENE</b></span>
+      </h1>
+      <div class="eatSure container">
+        <div class="row">
+          <div class="col-sm-2 col-12">
+            <img
+              src="https://assets.faasos.io/ovenstory-react.in/production/eat-sure-mobile.png"
+              alt="eat-sure logo"
+            />
+          </div>
+
+          <div class="col-sm-2 col-6 borderLeft">
+            <div class="icon-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="Capa_1"
+                enable-background="new 0 0 515.556 515.556"
+                height="512px"
+                viewBox="0 0 515.556 515.556"
+                width="512px"
+              >
+                <g>
+                  <path
+                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text">Well maintained kitchen</div>
+          </div>
+
+          <div class="col-sm-2 col-6 borderLeft">
+            <div class="icon-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="Capa_1"
+                enable-background="new 0 0 515.556 515.556"
+                height="512px"
+                viewBox="0 0 515.556 515.556"
+                width="512px"
+              >
+                <g>
+                  <path
+                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text">20+  Quality Checks</div>
+          </div>
+
+          <div class="col-sm-2 col-6 borderLeft">
+            <div class="icon-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="Capa_1"
+                enable-background="new 0 0 515.556 515.556"
+                height="512px"
+                viewBox="0 0 515.556 515.556"
+                width="512px"
+              >
+                <g>
+                  <path
+                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text">No unhygiene food</div>
+          </div>
+
+          <div class="col-sm-2 col-6 borderLeft">
+            <div class="icon-wrapper">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="Capa_1"
+                enable-background="new 0 0 515.556 515.556"
+                height="512px"
+                viewBox="0 0 515.556 515.556"
+                width="512px"
+              >
+                <g>
+                  <path
+                    d="m0 274.226 176.549 176.886 339.007-338.672-48.67-47.997-290.337 290-128.553-128.552z"
+                    data-original="#000000"
+                    class="active-path"
+                    data-old_color="#000000"
+                    fill="#FFFFFF"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div class="text"> Sealed Packaging <br /><br /></div>
+          </div>
+
+          
+        </div>
+      </div>
+
+      <div class="container safetyMeasuresDiv">
+        <p class="safetyMeasuresPara">
+          While we have always followed hygiene regime at GETFOOD, we have taken
+          <br />
+          a few specific measures at these times.
+        </p>
+        <div class="row safetyMeasures">
+          <div class="col-sm-3 col-6">
+           
+            <p>
+              Our Kitchen executives have been instructed to wear masks at all
+              times.
+            </p>
+          </div>
+
+          <div class="col-sm-3 col-6">
+            
+            <p>
+              A daily log of our executives’ body temperatures is being <br />
+              maintained.
+            </p>
+          </div>
+
+          <div class="col-sm-3 col-6">
+            
+            <p>
+              Every kitchen executive sanitizes his/her hands every hour.
+              <br /><br />
+            </p>
+          </div>
+
+          <div class="col-sm-3 col-6">
+           
+            <p>
+              Every kitchen surface is rigorously cleaned to ensure a clean and
+              sanitized workstation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <div style="background: rgb(144, 118, 83);border: 6;">
+    <h3 style="color: beige;margin-left: 700px;margin-bottom: 50px;">Credits</h3>
+    <div style="display: flex;">
+      <div style="margin-left: 50px;border: 2px ridge rgb(139, 234, 235) ;padding: 10px;margin-bottom: 20px;">
+    <h4 style="color: aliceblue; ">Name:Nithin</h4>
+    <h4 style="color: aliceblue;">R.No:21bce8378</h4>
+  </div>
+  <div style="margin-left: 90px;border: 2px ridge rgb(139, 234, 235) ;padding: 10px;margin-bottom: 20px;">
+    <h4 style="color: aliceblue;">Name:Roshan</h4>
+    <h4 style="color: aliceblue;">R.No:21bce7301</h4>
+  </div>
+  <div style="margin-left: 90px;border: 2px ridge rgb(139, 234, 235) ;padding: 10px;margin-bottom: 20px;">
+    <h4 style="color: aliceblue;">Name:Satya pranay</h4>
+    <h4 style="color: aliceblue;">R.No:21bce9156</h4>
+  </div>
+  <div style="margin-left: 90px;border: 2px ridge rgb(139, 234, 235) ;padding: 10px;margin-bottom: 20px;">
+    <h4 style="color: aliceblue;">Name:Snehankita</h4>
+    <h4 style="color: aliceblue;">R.No:21bce8019</h4>
+  </div>
+  <div style="margin-left: 90px;border: 2px ridge rgb(139, 234, 235) ;padding: 10px;margin-bottom: 10px;">
+    <h4 style="color: aliceblue;">Name:Reeti</h4>
+    <h4 style="color: aliceblue;">R.No:21bce7133</h4>
+  </div>
+    </div>
+  </div>
+      
+
+    <!-- FOOTER STARTS HERE -->
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-9 footerHeadingCol">
+            <h2>GETFOOD</h2>
+          </div>
+
+          <div class="col-3 socialMedia">
+            <a href="https://www.facebook.com/" class="socialMediaIcon">
+              <span><i class="fab fa-facebook-f"></i></span
+            ></a>
+            <a href="https://www.twitter.com/" class="socialMediaIcon">
+              <span><i class="fab fa-twitter"></i></span
+            ></a>
+            <a href="https://www.instagram.com/" class="socialMediaIcon">
+              <span><i class="fab fa-instagram"></i></span
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/nithin-venkata-sai-avvaru-641589257/"
+              target="_blank"
+              class="socialMediaIcon"
+            >
+              <span><i class="fab fa-linkedin"></i></span
+            ></a>
+          </div>
+        </div>
+
+        <div class="row contactRow">
+          <p>
+            <a class="footer_clickable" href="./policy.html">Policies</a> |
+            <a class="footer_clickable" href="./terms_of_service.html"
+              >Terms of Service</a
+            >
+            |
+            <!-- <a class="footer_clickable" href="tel:+919871198882">Contact Us</a> -->
+            <a class="footer_clickable" href="./contactus.html">Contact Us</a>
+          </p>
+        </div>
+
+        
+    </footer>
+
+    <!-- BOOTSTRAP JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <!-- FONT AWESOME JS -->
+    <script
+      src="https://kit.fontawesome.com/9f6e489cf7.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./index.js"></script>
+  </body>
+
+  <!-- BOOTSTRAP JS -->
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- JQUERY CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- CUSTOM JS -->
+  <script src="./index.js"></script>
+  <script>
+    $(window).on("load", function () {
+      $("#loading").hide();
+    });
+  </script>
+</html>
